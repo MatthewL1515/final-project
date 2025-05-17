@@ -5,5 +5,7 @@ This project will be a wave-based survival game, where a player navigates a maze
 
 ## Modelling Classes
 **Player**: For controlling player position, gravity, health, drawing, and collision detection with drones and walls.
+
 **Drone**: The autonomous agent class (chapter 5) that tracks and seeks the player. It will also have mouse click detection and will do a particle animation upon any collision (except with other drones).
+
 **Maze**: Draws a maze and stores it in this class. I'd like to do further research to see whether it's feasible to randomly generate a maze. 
