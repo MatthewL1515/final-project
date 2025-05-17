@@ -15,3 +15,22 @@ This project will be a wave-based survival game, where a player navigates a maze
 **Wave Manager**: Counts the number of waves, controls spawning more waves, and keeps count of all drones present(if none, spawn next wave).
 
 ## Other Variables and Data Structures
+### Core/Central Game Variables
+drones: array
+particles: array
+hitcount: integer counter for how many times the player has been hit (max 5)
+health: for player display, tells the player's life
+gamveOver: ends game once player reaches 5 hits
+
+### Player Class Variables
+position: tracks player position
+gravity: gravity constant
+allForce: determines all forces on the player
+jump: When the player hits the "w" button, a vertical jump force is applied to the player
+onGround: used to check whether the player can jump
+
+## Drone Class Variables
+position: tracks drone position
+force: calculates all forces on the drone
+maxSpeed: limits speed to prevent overspeed
+radius: used for collision
