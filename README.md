@@ -13,3 +13,5 @@ This project will be a wave-based survival game, where a player navigates a maze
 **Particle**: Visual effect(no collision checks for this). Acts as a result of an if, on detection of a drone collision. Has motion and fading of particles.
 
 **Wave Manager**: Counts the number of waves, controls spawning more waves, and keeps count of all drones present(if none, spawn next wave).
+
+## Other Variables and Data Structures
