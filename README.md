@@ -9,3 +9,7 @@ This project will be a wave-based survival game, where a player navigates a maze
 **Drone**: The autonomous agent class (chapter 5) that tracks and seeks the player. It will also have mouse click detection and will do a particle animation upon any collision (except with other drones).
 
 **Maze**: Draws a maze and stores it in this class. I'd like to do further research to see whether it's feasible to randomly generate a maze. 
+
+**Particle**: Visual effect(no collision checks for this). Acts as a result of an if, on detection of a drone collision. Has motion and fading of particles.
+
+**Wave Manager**: Counts the number of waves, controls spawning more waves, and keeps count of all drones present(if none, spawn next wave).
