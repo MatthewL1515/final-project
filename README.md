@@ -66,4 +66,6 @@ spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a dela
 
 ## Code Setup
 * Create multiple .js files for different classes
+
+### sketch.js
 * 
