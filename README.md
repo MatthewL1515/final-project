@@ -44,3 +44,9 @@ force: calculates all forces on the drone
 
 maxSpeed: limits speed to prevent overspeed
 radius: used for collision
+
+## Maze Class Variables
+wall_x, wall_y: define the wall positioning of the maze to determine collision for the drone and the player
+
+## Particle Class Variables
+
