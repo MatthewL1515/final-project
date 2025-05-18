@@ -63,3 +63,7 @@ currentWave: current wave number
 activeDrones: tracks the number of drones currently on screen
 
 spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a delay for a second to prevent code from 'spawning' more drones than required.
+
+## Code Setup
+* Create multiple .js files for different classes
+* 
