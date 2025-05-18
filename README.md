@@ -49,4 +49,17 @@ radius: used for collision
 wall_x, wall_y: define the wall positioning of the maze to determine collision for the drone and the player
 
 ## Particle Class Variables
+position: tracks the position of particles
 
+gravity: gravity for particles
+
+lifespan: fades the particles away
+
+color: random colors for particles
+
+## WaveManager Class Variables
+currentWave: current wave number
+
+activeDrones: tracks the number of drones currently on screen
+
+spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a delay for a second to prevent code from 'spawning' more drones than required.
