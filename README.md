@@ -37,7 +37,7 @@ jump: When the player hits the "w" button, a vertical jump force is applied to t
 
 onGround: used to check whether the player can jump
 
-## Drone Class Variables
+### Drone Class Variables
 position: tracks drone position
 
 force: calculates all forces on the drone
@@ -45,10 +45,10 @@ force: calculates all forces on the drone
 maxSpeed: limits speed to prevent overspeed
 radius: used for collision
 
-## Maze Class Variables
+### Maze Class Variables
 wall_x, wall_y: define the wall positioning of the maze to determine collision for the drone and the player
 
-## Particle Class Variables
+### Particle Class Variables
 position: tracks the position of particles
 
 gravity: gravity for particles
@@ -57,7 +57,7 @@ lifespan: fades the particles away
 
 color: random colors for particles
 
-## WaveManager Class Variables
+### WaveManager Class Variables
 currentWave: current wave number
 
 activeDrones: tracks the number of drones currently on screen
