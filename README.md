@@ -76,4 +76,28 @@ spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a dela
 * Handles mouseclick function for destroying drones
 
 ### Player.js
-*
+* Player character class
+* Handles gravity, jumping, and other movements
+* Performs collision checks with maze and drones. For maze collision, will use (0-1) method.
+* Track onGround variable and position
+
+### Drone.js
+* Drone class
+* Uses chapter 5 autonomous seeking towards player position
+* Checks for wall collision
+* Track position and limits for speed
+* Detects mouse clicks for destruction
+
+### Maze.js
+* Stores maze drawing
+* Helps with collision detection with player and drones?
+
+### Particle.js
+* Class for confetti/particle explosion effect
+* Triggered whenever a drone hits the wall or player
+* Has lifespan, random colors, and position on hit
+
+### WaveManager.js
+* Tracks current wave number
+* Spawns correct number of drones for each wave
+* Detects when all drones have been cleared before beginning next wave
