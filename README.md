@@ -68,4 +68,12 @@ spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a dela
 * Create multiple .js files for different classes
 
 ### sketch.js
-* 
+* Manage variables and arrays
+* Handle key input
+* Handle game states
+  * I plan to do this by using a (0-1 method). If a state of the game changes (like losing or player is on the ground), the number switches from 0 to 1. Then the variable resets to 0.
+* Draws all objects
+* Handles mouseclick function for destroying drones
+
+### Player.js
+*
