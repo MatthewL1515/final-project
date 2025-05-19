@@ -101,3 +101,12 @@ spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a dela
 * Tracks current wave number
 * Spawns correct number of drones for each wave
 * Detects when all drones have been cleared before beginning next wave
+
+
+## Flow of Data
+### 1. Game Setup
+* Create Canvas size
+* Initialize the maze, player, WaveManager, and arrays
+
+### Draw function in sketch.js
+* Draw the maze through 
