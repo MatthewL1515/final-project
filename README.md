@@ -108,5 +108,13 @@ spawnCheck: Sometimes, p5js has issues with ticks. So, this variable sets a dela
 * Create Canvas size
 * Initialize the maze, player, WaveManager, and arrays
 
-### Draw function in sketch.js
-* Draw the maze through 
+### 2. Draw function in sketch.js
+* Draw the maze, player, drones, and wavemanager in a loop (these need to be continuously updating)
+* Non-updating: mousePressed function, particle class, gameOver check
+
+### 3. Class Exchanges
+* Player - Maze: The player class needs to detect the onGround with the maze to use jump.
+* Drones - Player: The drones must actively check the player's position to autonomously steer.
+* Drones - Maze: Drones check for wall collisions using maze positions.
+* WaveManager - Drones: Spawns drones into the global drones array.
+* Drones - Particles: Particles are triggered by drone collision events.
